@@ -18,6 +18,10 @@ class opts(object):
                                  help='dir to save weights and logs')
         self.parser.add_argument('--image', default='',
                                  help='path to image for detecting')
+        self.parser.add_argument('--video', default='',
+                                 help='path to video for detecting')
+        self.parser.add_argument('--video_out', default='',
+                                 help='path to video for output')
         self.parser.add_argument('--load_model', default='',
                                  help='path to pretrained model')
 
